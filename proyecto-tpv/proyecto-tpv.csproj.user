@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="views\InventoryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\popViews\CreateProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\alcoholicDrinksPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\aperitivosPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\coolDrinksPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\entrantesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\hotDrinksPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\platoPrincipalPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\postrePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\SettingsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\TPVWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="views\InventoryWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\popViews\CreateProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\alcoholicDrinksPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\aperitivosPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\coolDrinksPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\entrantesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\hotDrinksPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\platoPrincipalPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\postrePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\SettingsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\TPVWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
