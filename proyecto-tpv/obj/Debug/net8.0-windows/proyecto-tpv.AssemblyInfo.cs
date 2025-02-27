@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("proyecto-tpv")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4d51402e70c2cfce6f7dc06aec39a748ecc52e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a430ad6e2b332e233ce4a2ea2b25595948583f13")]
 [assembly: System.Reflection.AssemblyProductAttribute("proyecto-tpv")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proyecto-tpv")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

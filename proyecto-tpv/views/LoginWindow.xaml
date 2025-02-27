@@ -34,7 +34,7 @@
          VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Padding="0,0,8,0"/>
 
       <Rectangle Grid.Row="1" Margin="6" RadiusX="10" RadiusY="10" Fill="#161A1D"/>
-      <TextBox Name="txtPassword" Grid.Row="1" Margin="6,3,6,6" Background="{x:Null}" BorderBrush="{x:Null}"
+      <PasswordBox Name="txtPassword" Grid.Row="1" Margin="6,3,6,6" Background="{x:Null}" BorderBrush="{x:Null}"
                Foreground="#FFF5F3F4" FontSize="18" FontWeight="ExtraBold"
                VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Padding="0,0,8,0"/>
     </Grid>

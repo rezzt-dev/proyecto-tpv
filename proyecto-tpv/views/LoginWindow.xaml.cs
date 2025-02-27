@@ -57,7 +57,7 @@ namespace proyecto_tpv.views
     private void btnRegistrarse_Click(object sender, RoutedEventArgs e)
     {
       String username = txtUsuario.Text;
-      String passwordRaw = txtPassword.Text;
+      String passwordRaw = txtPassword.Password;
 
       String passwordHashed = encryptPassword(passwordRaw);
 
@@ -71,7 +71,7 @@ namespace proyecto_tpv.views
       {
         System.Windows.MessageBox.Show($"Error al Iniciar Sesion. Usuario o contraseña incorrectos", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
 
-        txtPassword.Text = "";
+        txtPassword.Password = "";
         txtUsuario.Text = "";
       }
     }

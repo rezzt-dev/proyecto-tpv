@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|d:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|solutionrelative:proyecto-tpv\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|d:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|solutionrelative:proyecto-tpv\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|d:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\tpvwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|solutionrelative:proyecto-tpv\\views\\tpvwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +34,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "proyecto-tpv\\views\\LoginWindow.xaml",
+              "ToolTip": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\LoginWindow.xaml",
+              "RelativeToolTip": "proyecto-tpv\\views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-27T22:31:51.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto-tpv\\views\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "proyecto-tpv\\views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwDsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T22:31:50.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TPVWindow.xaml",
               "DocumentMoniker": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\TPVWindow.xaml",
               "RelativeDocumentMoniker": "proyecto-tpv\\views\\TPVWindow.xaml",
@@ -38,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TPVWindow.xaml.cs",
               "DocumentMoniker": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\views\\TPVWindow.xaml.cs",
               "RelativeDocumentMoniker": "proyecto-tpv\\views\\TPVWindow.xaml.cs",
@@ -46,8 +79,7 @@
               "RelativeToolTip": "proyecto-tpv\\views\\TPVWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T18:31:48.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T18:31:48.604Z"
             }
           ]
         }
