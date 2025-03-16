@@ -1,0 +1,61 @@
+﻿<Window x:Class="proyecto_tpv.views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proyecto_tpv.views"
+        mc:Ignorable="d"
+        WindowStyle="None" Background="#161A1D" WindowStartupLocation="CenterScreen" AllowsTransparency="True" 
+        Height="600" Width="1000" Foreground="#FFFFFF" FontFamily="Comfortaa">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="1.5*"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="1.5*"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+
+    <Rectangle Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="3" Margin="6" RadiusX="10" RadiusY="10" Fill="Black" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Image Grid.Row="0" Grid.Column="1" Source="/images/loginImages/user-ico.ico" Margin="15"/>
+
+    <Grid Grid.Row="1" Grid.Column="1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+
+      <Rectangle Grid.Row="0" Margin="6,6,6,3" RadiusX="10" RadiusY="10" Fill="#161A1D"/>
+      <TextBox Name="txtUsuario" Grid.Row="0" Margin="6,3,6,6" Background="{x:Null}" BorderBrush="{x:Null}"
+         Foreground="#FFF5F3F4" FontSize="18" FontWeight="ExtraBold"
+         VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Padding="0,0,8,0"/>
+
+      <Rectangle Grid.Row="1" Margin="6" RadiusX="10" RadiusY="10" Fill="#161A1D"/>
+      <PasswordBox Name="txtPassword" Grid.Row="1" Margin="6,3,6,6" Background="{x:Null}" BorderBrush="{x:Null}"
+               Foreground="#FFF5F3F4" FontSize="18" FontWeight="ExtraBold"
+               VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Padding="0,0,8,0"/>
+    </Grid>
+
+    <Grid Grid.Row="2" Grid.Column="1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+
+      <Rectangle Grid.Row="0" Grid.Column="0" Margin="8" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+      <Button Name="btnRegistrarse" Content="Iniciar Sesion" Grid.Row="0" Grid.Column="0" Margin="14" BorderBrush="{x:Null}" 
+              Background="{x:Null}" Foreground="#FFF5F3F4" FontSize="18" FontWeight="ExtraBold" Click="btnRegistrarse_Click"/>
+
+      <Rectangle Grid.Row="0" Grid.Column="1" Margin="8" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#BA181B"/>
+      <Button Name="btnCancelar" Content="Cancelar" Grid.Row="0" Grid.Column="1" Margin="14" BorderBrush="{x:Null}" 
+              Background="{x:Null}" Foreground="#BA181B" FontSize="18" FontWeight="ExtraBold" Click="btnCancelar_Click"/>
+    </Grid>
+  </Grid>
+</Window>
