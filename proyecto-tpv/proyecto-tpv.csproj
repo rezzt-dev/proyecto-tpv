@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\loginImages\user-ico.ico" />
     <None Remove="images\productImages\alcoholicDrinks\cerveza.png" />
     <None Remove="images\productImages\alcoholicDrinks\gin-tonic.ico" />
     <None Remove="images\productImages\alcoholicDrinks\mojito.ico" />
@@ -77,6 +78,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\loginImages\user-ico.ico" />
     <Resource Include="images\productImages\aperitivosFood\aceitunas.ico" />
     <Resource Include="images\productImages\aperitivosFood\almendras.ico" />
     <Resource Include="images\productImages\aperitivosFood\calamares.ico" />

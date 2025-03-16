@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\proyecto-tpv.csproj": {}
+    "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\proyecto-tpv.csproj": {}
   },
   "projects": {
-    "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\proyecto-tpv.csproj": {
+    "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\proyecto-tpv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\proyecto-tpv.csproj",
+        "projectUniqueName": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\proyecto-tpv.csproj",
         "projectName": "proyecto-tpv",
-        "projectPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\proyecto-tpv.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\obj\\",
+        "projectPath": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\proyecto-tpv.csproj",
+        "packagesPath": "C:\\Users\\rezzt\\.nuget\\packages\\",
+        "outputPath": "D:\\documents\\github-repositories\\instituto-data\\proyecto-tpv\\proyecto-tpv\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rezzt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,7 +43,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -78,7 +79,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

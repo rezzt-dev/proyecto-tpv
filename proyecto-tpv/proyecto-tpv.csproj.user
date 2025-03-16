@@ -10,6 +10,9 @@
     <Compile Update="views\InventoryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="views\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="views\popViews\CreateProduct.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="views\InventoryWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="views\popViews\CreateProduct.xaml">
